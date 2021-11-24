@@ -35,7 +35,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'ToDoApp.middleware.middleware.UserRestrictionMiddleware',
 ]
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://nameless-depths-34814.herokuapp.com/']
 
 
 # Application definition
